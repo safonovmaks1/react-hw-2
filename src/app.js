@@ -13,7 +13,7 @@ export const App = () => {
 	const reset = () => setActiveIndex(0);
 
 	const clickOnButton = (i) => setActiveIndex(i);
-)
+
 	return (
 		<div className={styles.container}>
 			<div className={styles.card}>
